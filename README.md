@@ -1,4 +1,4 @@
-# Trading Result COunter
+# Trading Result Counter
 
 just a simple script to count win or losing trades from csv
 
