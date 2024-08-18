@@ -22,7 +22,7 @@ pip install trading_result_counter
 import pandas as pd
 import pandas_ta as ta
 import time
-from trading_result_counter import TradingResultCounter
+from trading_result_counter import TradeResultCounter
 
 data = pd.read_csv('EUR_USD.csv')
 data.set_index('datetime')
@@ -52,7 +52,7 @@ def ma_ma_crossover(df, ma_1=20, ma_2=50):
 
     return df
 
-backtrading = TradingResultCounter(df=data).run(tp=400, sl=200, point_size=0.00001)
+backtrading = TradeResultCounter(df=data).run(tp=400, sl=200, point_size=0.00001)
 
 print(backtrading)
 ```
