@@ -2,6 +2,12 @@
 
 just a simple script to count win or losing trades from csv
 
+
+## Features
+- Count total trades
+- Calculate win/loss ratio
+- Display profit/loss summary
+
 ## Getting Started
 
 Must have to prepare a Dataframe with the following columns
